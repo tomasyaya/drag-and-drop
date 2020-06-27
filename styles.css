@@ -1,0 +1,57 @@
+html {
+    min-height: 100%;
+}
+
+h2 {
+    color: rgb(106, 13, 173);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titles {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.todos {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#right { 
+    width: 300px;
+    min-height: 400px;
+    box-shadow: -9px 10px 32px -16px rgba(0,0,0,0.48);
+    border-radius: 10px;
+    padding-top: 10px;
+    
+}
+
+#left {
+    width: 300px;
+    min-height: 400px;
+    box-shadow: -9px 10px 32px -16px rgba(0,0,0,0.48); 
+    padding-top: 10px;  
+}
+
+.item {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.gu-mirror {
+    border: 2px solid rgb(106, 13, 173) ;
+    color: rgb(106, 13, 173);
+    width: 270px !important;
+    height: 20px !important;
+}
+
+
+
